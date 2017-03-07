@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command SelectAllHosted</Text>
+    <Description>Some description for SelectAllHosted</Description>
+    <Assembly>SelectAllHosted.dll</Assembly>
+    <FullClassName>SelectAllHosted.Command</FullClassName>
+    <ClientId>3d18edf1-c75b-4ce3-bcb0-1c6def8d595f</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application SelectAllHosted</Name>
+    <Assembly>SelectAllHosted.dll</Assembly>
+    <FullClassName>SelectAllHosted.App</FullClassName>
+    <ClientId>460491ad-7b99-4159-bc36-7153208592d4</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
